@@ -39,6 +39,10 @@ console.log(fileRead)
 // Variables de entorno
 /**
  * Para crear variables de entorno locales crear un archivo .env
+ * el archivo .env debe ser utilizado solo para desarrollo, para produccion se debe crear un archivo llamado
+ * .env.template indicando una idea de que tipo de valores se introducen en las variables de entorno esto
+ * debido a que es información sensible y no deberia de subirse, incluso se recomienda ponerlo en el archivo
+ * .gitignore para no subirlos a los repositorios remotos.
  * npm i dotenv
  * npm i env-var
  * 
